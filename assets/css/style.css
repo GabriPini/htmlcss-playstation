@@ -1,0 +1,30 @@
+#sony-logo{
+    background-color: black;
+    height: 30px;
+}
+#ps-nav{
+    background-color: rgb(82, 80, 80);
+    height: 60px;
+    
+}
+
+#jumbo_carousel{
+    height: 600px;
+    background-color: brown;
+}
+
+#explore{
+    background-color: lightgrey;
+}
+
+.my_filler{
+    background-color: aqua;
+    border: 1px solid crimson;
+    height: 100px;
+}
+
+.my_filler2{
+    background-color: rgb(9, 124, 255);
+    border: 1px solid crimson;
+    height: 200px;
+}
