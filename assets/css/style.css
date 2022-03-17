@@ -28,3 +28,29 @@
     border: 1px solid crimson;
     height: 200px;
 }
+
+#hero{
+    background-color: blue;
+    height: 400px;
+}
+
+#explore_playstation{
+    background-color: chocolate;
+}
+
+#play_plus{
+    background-color: dimgrey;
+}
+
+#Sale_playstation{
+    background-color: rgb(215, 252, 8);
+
+}
+
+#play_now{
+    background-color: rgb(53, 53, 165);
+}
+
+#links{
+    background-color: blueviolet;
+}
