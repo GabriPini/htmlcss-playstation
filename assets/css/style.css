@@ -8,15 +8,6 @@ body{
 }
 
 
-#jumbo_carousel{
-    height: 600px;
-    background-color: brown;
-}
-
-#explore{
-    background-color: lightgrey;
-}
-
 .my_filler{
     background-color: aqua;
     border: 1px solid crimson;
@@ -65,3 +56,27 @@ body{
     margin-left: -80px;
 }
 
+.returnal-img{
+    width: 60%;
+}
+.returnal-img2{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.returnal-img2:hover{
+ border: 5px solid cornflowerblue;
+ padding: 2px;
+}
+
+#my_jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 220px 0 80px 0;
+}
+
+.btn_orange{
+    background-color: orangered;
+} 
