@@ -1,19 +1,32 @@
+/* common */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* utility */
+ul{
+    list-style-type: disc;
+    color: rgb(42, 109, 233);
+}
+.deco_t{
+    text-decoration: none;
+    color: black;
+}
+.ms_hundred-img{
+    width: 100%;
+}
+
+/* header */
 #sony-logo{
     background-color: black;
     height: 30px;
 }
 
-#play_plus{
-    background-color: rgb(185, 185, 185);
-}
-
+/* nav */
 .my_navbar-image{
     width: 30px;
 }
+
 .dropdown-toggle{
     display: flex;
     align-items: center;
@@ -30,23 +43,12 @@ body{
 }
 
 
-.ms_hundred-img{
-    width: 100%;
-}
 .card:hover{
     filter:drop-shadow(2px 4px 6px black);
 }
 
 .card{
     border: transparent;
-}
-ul{
-    list-style-type: disc;
-    color: rgb(42, 109, 233);
-}
-.deco_t{
-    text-decoration: none;
-    color: black;
 }
 
 .deco_t:hover{
@@ -90,7 +92,6 @@ ul{
 }
 
 
-
 @keyframes bounce{
     0% {
         bottom: 0;
@@ -127,6 +128,7 @@ ul{
     padding: 220px 0 80px 0;
 }
 
+/* main */
 #hero{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -144,6 +146,10 @@ ul{
     border-bottom: 4px solid rgb(13, 110, 253);
 }
 
+#play_plus{
+    background-color: rgb(185, 185, 185);
+}
+
 #new_release{
     background-color: rgb(46, 46, 46);
     color: white;
@@ -153,6 +159,7 @@ ul{
     background-color: rgb(24, 24, 48);
     
 }
+/* footer */
 #links{
     background-color: rgb(42, 51, 167);
 }
