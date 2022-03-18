@@ -100,7 +100,10 @@ ul{
     border-radius: 16px;
 }
 
-
+.btn:hover{
+   color: white;
+    
+}
 
 .carousel-img:hover{
  border: 5px solid cornflowerblue;
@@ -111,6 +114,8 @@ ul{
  transition: 2s;
  
 }
+
+
 
 @keyframes bounce{
     0%   { transform: translateY(0); }
@@ -127,7 +132,12 @@ ul{
     padding: 220px 0 80px 0;
 }
 
-.btn_orange{
-    background-color: orangered;
-} 
 
+.Slider_effect{
+    opacity: 0.6;
+}
+
+.Slider_effect:hover{
+    opacity: 1;
+    border-bottom: 4px solid rgb(13, 110, 253);
+}
