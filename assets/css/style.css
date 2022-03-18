@@ -48,26 +48,76 @@ body{
 .my_navbar-image{
     width: 30px;
 }
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after{
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107" ;
+}
+
+
+.dropdown-toggle.show::after{
+    content: "\f106" ;
+}
+
+
 .ms_hundred-img{
     width: 100%;
 }
-.TENDA{
-    width: 100vw;
-    margin-left: -80px;
+.card:hover{
+    filter:drop-shadow(2px 4px 6px black);
 }
 
+.card{
+    border: transparent;
+}
+ul{
+    list-style-type: disc;
+    color: rgb(42, 109, 233);
+}
+.deco_t{
+  text-decoration: none;
+  color: black;
+}
+
+.deco_t:hover{
+    color: cornflowerblue;
+  }
+
+/* end navbar */
 .returnal-img{
     width: 60%;
 }
-.returnal-img2{
+
+
+.site_img,
+.carousel-img{
     width: 100%;
     border-radius: 16px;
 }
 
-.returnal-img2:hover{
+
+
+.carousel-img:hover{
  border: 5px solid cornflowerblue;
  padding: 2px;
+ animation-name: bounce;
+ animation-timing-function: ease-in-out;
+ animation-duration: 3s;
+ transition: 2s;
+ 
 }
+
+@keyframes bounce{
+    0%   { transform: translateY(0); }
+    50% { transform: translateY(-20px);}
+    100%   { transform: translateY(0);} 
+}
+
 
 #my_jumbotron{
     background-image: url(../img/jumbo-bg.png);
@@ -80,3 +130,4 @@ body{
 .btn_orange{
     background-color: orangered;
 } 
+
