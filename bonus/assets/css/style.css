@@ -1,0 +1,213 @@
+/* common */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* utility */
+ul{
+    list-style-type: disc;
+    color: rgb(42, 109, 233);
+}
+.deco_t{
+    text-decoration: none;
+    color: black;
+}
+.ms_hundred-img{
+    width: 100%;
+}
+
+/* header */
+#sony-logo{
+    background-color: black;
+    height: 30px;
+}
+
+/* nav */
+.my_navbar-image{
+    width: 30px;
+}
+
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after{
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107" ;
+}
+
+.dropdown-toggle.show::after{
+    content: "\f106" ;
+}
+
+
+.card:hover{
+    filter:drop-shadow(2px 4px 6px black);
+}
+
+.card{
+    border: transparent;
+}
+
+.deco_t:hover{
+    color: cornflowerblue;
+}
+
+/* end navbar */
+.returnal-img{
+    width: 60%;
+}
+
+.p_plus-img{
+    width: 50%;
+}
+
+.site_img,
+.carousel-img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    color: white;
+    box-shadow: inset 0 0 0 2px black;
+}
+
+
+.carousel-img{
+    position: relative;
+    animation: bounce-out 1s;
+}
+.img_active{
+    border:4px solid cornflowerblue;
+    padding: 2px;
+}
+
+.carousel-img:hover{
+    
+    animation: bounce 100s infinite;
+    
+}
+
+
+@keyframes bounce{
+    0% {
+        bottom: 0;
+        left: 0;
+    }
+    2% {
+        bottom: 15px;
+        left: 0;
+    }
+    
+    100% {
+        bottom: 15px;
+        left: 0;
+    }
+}
+
+@keyframes bounce-out {
+    0% {
+        bottom: 15px;
+        left: 0;
+    }
+    100% {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+#my_jumbotron{
+    background-image: url(https://i0.wp.com/www.badtaste.it/tv/wp-content/uploads/sites/4/2022/02/grogu-mandalorian.jpg?fit=1200%2C600&quality=85&strip=all&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 220px 0 80px 0;
+}
+
+/* main */
+#hero{
+    background-image: url(https://i.makeagif.com/media/2-09-2016/ep_Rsd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 80px 0; 
+}
+
+.Slider_effect{
+    opacity: 0.6;
+}
+
+.Slider_effect:hover{
+    opacity: 1;
+    border-bottom: 4px solid rgb(13, 110, 253);
+}
+#play_plus{
+    background-color: rgb(185, 185, 185);
+}
+
+#new_release{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+#play_now{
+    background-color: rgb(24, 24, 48);
+    
+}
+/* footer */
+#links{
+    background-color: rgb(0, 0, 0);
+}
+
+.footer_img{
+    width: 15%;
+}
+
+footer  li > a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:360px){
+    
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .img_active{
+        border:4px solid rgb(245, 147, 0);
+        
+    }
+    .Slider_effect:hover{
+        border-bottom: 4px solid rgb(245, 139, 0);
+    }
+    
+    #play_plus{
+        background-color: rgb(243, 10, 10);
+    }
+    #sony-logo{
+        background-color: rgb(214, 86, 0);
+    }
+    
+    #new_release{
+        background-color: rgb(0, 202, 10);
+        color: rgb(0, 0, 0);
+    }
+    
+    #play_now{
+        background-color: rgb(75, 23, 77);
+        
+    }
+    /* footer */
+    #links{
+        background-color: rgb(92, 0, 0);
+    }
+ }
+     
+ 
